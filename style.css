@@ -1,0 +1,52 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body.groovy {
+    scroll-behavior: smooth;
+    background-color: #353547;   
+}
+
+.card {
+    width: 70%;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 12px auto;
+}
+
+#topo {
+    text-align: left;
+    margin-top: 5rem;
+}
+
+h3 {
+    height: auto;
+    font-weight: 800;
+}
+
+#dados{
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+#creditos{
+    text-align: center; 
+    color: lightyellow;
+}
+
+.blu, #igor, #titan{
+    color: #f2a900;
+    
+}
+
+#igor:hover{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
